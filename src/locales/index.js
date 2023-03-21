@@ -4,16 +4,16 @@ import { TR_POLISH } from "./pol";
 import { TR_RUSSIAN } from "./rus";
 
 export const TR = {
-  EN: {
+  ENGLISH: {
     ...TR_ENGLISH,
   },
-  LT: {
+  LITHUNIAN: {
     ...TR_LITHUNIAN,
   },
-  POL: {
+  POLISH: {
     ...TR_POLISH,
   },
-  RUS: {
+  RUSSIAN: {
     ...TR_RUSSIAN,
   },
 };

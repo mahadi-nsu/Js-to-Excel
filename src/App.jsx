@@ -13,10 +13,10 @@ function App() {
     });
 
     const locals = Object.keys(TR);
-    const data = [];
+    const data = [["Unique Key", ...locals]];
 
     [...uniqueKeys].forEach((k) => {
-      const sentences = [];
+      const sentences = [k];
       locals.forEach((l) => sentences.push(TR[l][k] || ""));
       data.push(sentences);
     });
